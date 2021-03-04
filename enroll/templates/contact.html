@@ -1,0 +1,65 @@
+{%extends 'base.html' %}
+{%load static %}
+{%block title %} CONTACT_PAGE {%endblock%}
+{%block content%}
+
+<div class="row mt-4">
+        <div class="col-8 ">
+          <div class="col-md-12">
+                <h2 class=" fw-light">Contact Us</h2>
+                <p class=" mt-5">
+                    Contact us with your Business need and Requirements
+                    so that we can assist you in better way.
+                    Please fill out following
+                    contact form and we will get in touch with you shortly.
+                </p>
+          </div>
+            <form>
+           <div class="row">
+               <div class="col-md-6">
+                   <label  >First Name :</label>
+<input type="text" class="form-control mt-2" placeholder="First name" aria-label="First name">
+               </div>
+            <div class="col-md-6">
+                    <label>Last Name :</label>
+                <input type="text" class="form-control mt-2" placeholder="Last name" aria-label="First name">
+            </div>
+           </div>
+
+               <div class="col-md-6">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="test@example.com">
+            </div>
+               </div>
+               <div class="col-6"></div>
+
+
+                    <div class="col-md-12">
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Your Requirements :</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </div>
+
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-success mb-3">Confirm identity</button>
+                </div>
+            </form>
+            </div>
+
+        <div class="col-md-4">
+       <h2 class=" text-sm-center  fw-normal">About Sites</h2>
+       <p class=" text-center mt-5">This Site is Designed and Developed by i3Developer</p>
+       <h4 class="mt-5 text-center">Find Us</h4>
+       <div class=" text-center">
+            <p class=" text-muted ">Email :</p>
+            <span>support@technos.com</span>
+
+            <p>Phone: (+91) 7000268870</p><br>
+            <br>
+            <p>Address: Taita, Chhibc State, India, Postal Code xxxxxx</p>
+       </div>
+        </div>
+    </div>
+ {%endblock%}

@@ -1,0 +1,47 @@
+{%extends 'base.html' %}
+{%load static %}
+{%block title %} HOME_PAGE {%endblock%}
+{%block content%}
+<div class="row grow pt-3  h-100 tech">
+            <div class="col-md-6 order-lg-0 order-md-0 order-sm-1 order-1  hello">
+               <h3>Grow your Bussiness with
+                <b>Techno</b>
+            </h3><br>
+            <h4 class="word">Techno Developer is a Team of Web and Mobile App
+                 Developers that helps Businesses to grow their Business in lowest cost.
+            </h4>
+
+            <button class="btn btn-outline-primary mt-4">Get Started</button>
+
+            </div>
+            <div class="col-md-6 mt-5 order-lg-1 order-md-1 order-sm-0 order-0 ">
+                <img src="{%static 'image/logo (22).png' %}" class="mt-auto img-fluid w-75">
+            </div>
+        </div>
+
+    <div class="row justify-content-between mt-2 meet">
+
+        <div class="col"></div>
+      <div class="col-md-10 ">
+        <h2 class=" text-center">Our Team Member</h2>
+          <div class="row justify-content-between text-center my-2">
+              <div class="col-md-3 my-2">
+                <img src="{%static 'image/team_2.jpg' %}" class=" img-fluid " alt="">
+                <h3>John Sena</h3>
+                <p>UI/UX Designer</p>
+              </div>
+            <div class="col-md-3 my-2">
+                <img src="{%static 'image/team_3.jpg' %}" class=" img-fluid" alt="">
+                <h3>Haina John</h3>
+                <p>Backed-End Developer</p>
+            </div>
+            <div class="col-md-3 my-2">
+                <img src="{%static 'image/team_4.jpg'%}" class=" img-fluid" alt="">
+                <h3>Haina John</h3>
+                <p>Data Analysis</p>
+            </div>
+          </div>
+      </div>
+  <div class="col"></div>
+        </div>
+{%endblock%}
